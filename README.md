@@ -14,9 +14,9 @@ How It Works
 
 **🌟 It involves three main components:**
 
-**Supplicant** – the client device (like a laptop or phone) requesting access.
+**Supplicant** – A client device (like a laptop or phone) requesting access.
 
-**Authenticator** – the network device (like a switch or access point) that controls the physical access. 
+**Authenticator** – A network device (like a router, switch or AP) that controls the physical access. 
 
 <details>
 
