@@ -30,7 +30,7 @@ By Physical access, we mean it controls whether the network port or radio channe
 
 </details>
 
-**Authentication Server** – usually a RADIUS server, which verifies credentials/certficate (Identity) and grants or denies access.
+**Authentication Server** – usually a RADIUS server or TACACS+ server, which verifies credentials/certficate (Identity) and grants or denies access.
 
 The authenticator blocks all non-802.1X traffic until authentication succeeds. Once authenticated, the port is opened for normal traffic.
 
