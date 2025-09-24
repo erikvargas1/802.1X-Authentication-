@@ -8,11 +8,11 @@
 • It provides a framework for authenticating devices (users or machines) before they are granted access to a wired or wireless LAN.
 
 • Think of it as a "gatekeeper" that ensures only authenticated devices can communicate through a switch port (wired) or access point (wireless).
-How It Works
+
 
 -----
 
-**🌟 It involves three main components:**
+**How It Works?** It involves three main components:
 
 **Supplicant** – A client device (like a laptop or phone) requesting access.
 
