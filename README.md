@@ -1,14 +1,10 @@
 # 802.1X-Authentication
 
-
 **What 802.1X Is?**
 
-802.1X is an IEEE standard that defines port-based Network Access Control (PNAC).
+802.1X is an IEEE standard for port-based network access control (PNAC), providing security by authenticating users and devices before allowing access to a wired or wireless network
 
-• It provides a framework for authenticating devices (users or machines) before they are granted access to a wired or wireless LAN.
-
-• Think of it as a "gatekeeper" that ensures only authenticated devices can communicate through a switch port (wired) or access point (wireless).
-
+Why It Matters for IT Admins? 802.1X ensures no device gets network access without authentication. 
 
 -----
 
@@ -46,10 +42,21 @@ Wireless networks → often used with WPA2-Enterprise or WPA3-Enterprise, where 
 
 ------
 
-**How EAP-TLS Works (802.1X with Certificates)**
+Think of 802.1X as a security gate at the network port (wired or wireless). Its job is to control when and where devices must prove their identity before they’re allowed to send any traffic on the network. It does not decide how the identity check happens — it just enforces that authentication must occur before network access is granted.
 
-802.1X itself is just a framework — it doesn’t define how authentication happens, only when and where (i.e., at the network port). 802.1X enforces that authentication must happen at the network entry point (before you send traffic), but it doesn’t care whether that authentication is via password, certificate, smart card, or something else — that’s EAP’s job
+Where EAP Fits In? EAP (Extensible Authentication Protocol) is the actual method that defines how authentication happens.
 
+Examples:
+Username/password (like PEAP with MSCHAPv2).
+Digital certificate (like EAP-TLS).
+Smart card or token-based login.
+
+802.1X just says: “Authentication must happen here, at the network entry point.”
+
+EAP says: “Okay, here’s the method we’ll use to verify who you are.”
+
+
+**How EAP-TLS Works (802.1X with Digital Certificates)**
 
 **1. Device Starts Connection**
 
