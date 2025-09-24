@@ -46,13 +46,10 @@ Wireless networks → often used with WPA2-Enterprise or WPA3-Enterprise, where 
 
 ------
 
-How EAP-TLS Works (802.1X with Certificates)
-
-<details>
+**How EAP-TLS Works (802.1X with Certificates)**
 
 802.1X itself is just a framework — it doesn’t define how authentication happens, only when and where (i.e., at the network port). 802.1X enforces that authentication must happen at the network entry point (before you send traffic), but it doesn’t care whether that authentication is via password, certificate, smart card, or something else — that’s EAP’s job
 
-**How EAP-TLS Works (802.1X with Certificates)**
 
 **1. Device Starts Connection**
 
@@ -110,7 +107,6 @@ How EAP-TLS Works (802.1X with Certificates)
 • Works with Active Directory, LDAP, or any identity system tied to the CA.
 • Supports policies (e.g., different VLANs depending on the device type or group).
 
-</details>
 
 --------
 
